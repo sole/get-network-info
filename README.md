@@ -11,13 +11,11 @@ So far it just returns the info I am interested in, in a way that is convenient 
 ```javascript
 var getNetworkInfo = require('get-network-info');
 
-getNetworkInfo().then(info => {
-	// Do things with the returned info here
-}, error => {
-	// Or deal with the error, if any
-});
+var info = getNetworkInfo();
+// info will be either an Object or false
+
 ```
 
-I'm using Promises and those nice nifty functions from ES6. Wait no, it's now called ESNext. Or ES2015. Or... well, you get the point.
+I'm using those nice nifty functions from ES6. Wait no, it's now called ESNext. Or ES2015. Or... well, you get the point.
 
-What I want to highlight is that when using this module with Browserify it works even if the node environment I'm using doesn't support promises or fat arrows by itself, which Firefox OS does *indeed* support, so it's all good.
+What I want to highlight is that when using this module with Browserify it works even if the node environment I'm using doesn't support fat arrows by itself, which Firefox OS does *indeed* support, so it's all good.
