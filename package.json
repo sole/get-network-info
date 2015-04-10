@@ -1,0 +1,24 @@
+{
+  "name": "get-network-info",
+  "version": "1.0.0",
+  "description": "get current network information (for Firefox OS)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "network",
+    "firefox os"
+  ],
+  "author": "sole",
+  "license": "Apache 2",
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sole/get-network-info"
+  },
+  "bugs": {
+    "url": "https://github.com/sole/get-network-info/issues"
+  },
+  "homepage": "https://github.com/sole/get-network-info"
+}
